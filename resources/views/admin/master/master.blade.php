@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/style.css')) }}"/>
     <link rel="icon" type="image/png" href="{{ url(asset('backend/assets/images/favicon.png')) }}"/>
 
-    <meta name="csrf-token" content="{{ csrf-token() }}">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>UpAdmin - Site Control</title>
 </head>
