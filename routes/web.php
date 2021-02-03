@@ -14,6 +14,9 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], fu
 
     Route::get('/', 'AuthController@showLoginForm')->name('login');
 
+    //Rota para o Ajax no login
+    Route::post('login', 'AuthController@login')->name('login.do');
+
     Route::get('home', 'AuthController@home')->name('home');
 
 });

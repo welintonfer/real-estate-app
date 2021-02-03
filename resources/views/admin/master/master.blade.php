@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/libs.css')) }}"/>
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/boot.css')) }}"/>
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/style.css')) }}"/>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png"/>
+    <link rel="icon" type="image/png" href="{{ url(asset('backend/assets/images/favicon.png')) }}"/>
+
+    <meta name="csrf-token" content="{{ csrf-token() }}">
 
     <title>UpAdmin - Site Control</title>
 </head>
