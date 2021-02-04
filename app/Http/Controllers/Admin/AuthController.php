@@ -22,7 +22,7 @@ class AuthController extends Controller
     public function login(Request $request)
     {
         if(in_array('', $request->only('email', 'password'))) {
-            //Forma antiga comentada
+            //Old code commented
             //$json['message'] = "Ooops, informe todos os dados para efetuar o login!";
             $json['message'] = $this->message->error('Ooops, informe todos os dados para efetuar o login!')->render();
             return response()->json($json);
@@ -47,5 +47,12 @@ class AuthController extends Controller
         $json['redirect'] = route('admin.home');
         return response()->json($json);
 
+    }
+
+    public function logout()
+    {
+        //Auth have to be from this facade //Illuminate\Support\Facades\Auth;
+        Auth::logout();
+        return redirect()->route('admin.login');
     }
 }
