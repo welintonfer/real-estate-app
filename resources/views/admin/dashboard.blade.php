@@ -143,6 +143,6 @@
 
 {{--@section('js')--}}
 {{--    <script>--}}
-{{--        alert('teste');--}}
+{{--        alert('test');--}}
 {{--    </script>--}}
 {{--@endsection--}}
