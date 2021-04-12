@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1893acd0-aa4e-4405-8b0d-7b7a4ac06ddf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/master/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/master/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/filter.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/team.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +181,12 @@
       <workItem from="1612032161979" duration="12458000" />
       <workItem from="1612099321230" duration="621000" />
       <workItem from="1612371884173" duration="16169000" />
-      <workItem from="1612809874593" duration="5722000" />
+      <workItem from="1612809874593" duration="6110000" />
+      <workItem from="1613073806502" duration="52000" />
+      <workItem from="1616927531717" duration="543000" />
+      <workItem from="1617215979027" duration="4034000" />
+      <workItem from="1617903832747" duration="804000" />
+      <workItem from="1618203750877" duration="2789000" />
     </task>
     <servers />
   </component>
@@ -184,6 +194,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2005" y="457" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1617903870636">
+      <screen x="1680" y="23" width="2560" height="1382" />
+    </state>
+    <state x="2005" y="457" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.1027/1680.23.2560.1382@1680.23.2560.1382" timestamp="1617903870636" />
     <state x="1967" y="521" key="NewPhpClassDialog" timestamp="1612379046583">
       <screen x="1680" y="23" width="2560" height="1382" />
     </state>
@@ -196,6 +210,11 @@
       <screen x="1680" y="23" width="2560" height="1382" />
     </state>
     <state x="1822" y="352" key="SettingsEditor/0.23.1680.1027/1680.23.2560.1382@1680.23.2560.1382" timestamp="1612032293237" />
+    <state x="198" y="412" key="com.intellij.ide.util.TipDialog" timestamp="1618203752832">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="198" y="412" key="com.intellij.ide.util.TipDialog/0.23.1680.1027/1680.23.2560.1382@0.23.1680.1027" timestamp="1618203752832" />
+    <state x="1981" y="546" key="com.intellij.ide.util.TipDialog/0.23.1680.1027/1680.23.2560.1382@1680.23.2560.1382" timestamp="1617903847824" />
     <state x="1974" y="339" width="670" height="676" key="search.everywhere.popup" timestamp="1612545058958">
       <screen x="1680" y="23" width="2560" height="1382" />
     </state>
